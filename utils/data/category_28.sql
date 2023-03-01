@@ -12,5 +12,5 @@ INSERT INTO category_28(id, name, size, local_url,remote_url, link_url)
  (1, 'hates', null, '/img/homepage/hates.png', 'https://i.ibb.co/cvpntL1/hats.png', '/crown2_28/shop_28/hats'),
  (2, 'jackets', null, '/img/homepage/jackets.png', '/crown2_28/shop_28/jackets', '/crown2_28/shop_28/jackets'),
  (3, 'sneakers', null, '/img/homepage/sneakers.png', 'https://i.ibb.co/0jqHpnp/sneakers.png', '/crown2_28/shop_28/sneakers'),
- (4, 'womens', null, '/img/homepage/womens.png', 'https://i.ibb.co/GCCdy8t/womens.png', '/crown2_28/shop_28/womens'),
- (5, 'mens', null, '/img/homepage/mens.png', 'https://i.ibb.co/R70vBrQ/men.png', '/crown2_28/shop_28/mens')
+ (4, 'womens', 'large', '/img/homepage/womens.png', 'https://i.ibb.co/GCCdy8t/womens.png', '/crown2_28/shop_28/womens'),
+ (5, 'mens', 'large', '/img/homepage/mens.png', 'https://i.ibb.co/R70vBrQ/men.png', '/crown2_28/shop_28/mens')

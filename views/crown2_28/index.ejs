@@ -45,10 +45,10 @@
     <div class="directory-menu">
 
       <% for(let i=0;i<data.length; i++){ %>
-        <div class="%= data[i].size %> menu-item">
+        <div class="<%= data[i].size %> menu-item">
           <img 
             class="background-image" 
-            src="https://i.ibb.co/R70vBrQ/men.png" 
+            src="<%= data[i].remote_url %>" 
             alt=""
           />
           <a href="<%= data[i].remote_url %" class="content">
