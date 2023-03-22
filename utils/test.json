@@ -26,7 +26,7 @@
     {
         "id": 4,
         "name": "womens",
-        "size": null,
+        "size": "large",
         "remote_url": "/img/homepage/womens.png",
         "local_url": "https://i.ibb.co/GCCdy8t/womens.png",
         "link_url": "/crown2_28/shop_28/womens"
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "name": "mens",
-        "size": null,
+        "size": "large",
         "remote_url": "/img/homepage/mens.png",
         "local_url": "https://i.ibb.co/R70vBrQ/men.png",
         "link_url": "/crown2_28/shop_28/mens"
