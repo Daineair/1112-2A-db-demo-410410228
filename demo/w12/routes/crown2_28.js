@@ -22,6 +22,22 @@ router.get('/', async function(req, res, next){
     
 });
 
+router.get('/shop2_28', async function (req, res, next){
+    try {
+        let results = await db.query(`select * from shop2_28`);
+        console.log('results', JSON.stringify(results.rows));
+        //res.json(results.rows);
+        res.render('crown2_28/shop2_28',{
+            data:results.rows,
+            category: "All Products",
+            title: 'XuEn Wu',
+            ID:'410410228',
+        });
+    }catch(error){
+        console.log(error);
+    }
+});
+
 router.get('/shop2_28/:category', async function (req, res, next){
     console.log('category', req.params.category);
     try {
