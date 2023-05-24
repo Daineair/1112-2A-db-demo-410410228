@@ -16,7 +16,7 @@ if(process.env.DATABASE === 'SUPABASE'){
     pool = new Pool({
         user: 'postgres',
         host: 'localhost',
-        port: '5432',
+        port: '5433',
         database: 'crown2_28',
         password: '0000',
     });
